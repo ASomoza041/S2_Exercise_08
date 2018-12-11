@@ -26,7 +26,11 @@ table.schedule {
 table.schedule th,
 table.schedule td {
     border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
 }
+
+
 
 
 /* Table Caption Styles */
@@ -42,6 +46,14 @@ table.schedule thead {
     color: white;
 }
 
+table.schedule thead tr {
+    height: 30px;
+}
+
+table.schedule tbody tr {
+    height: 40px;
+}
+
 table.schedule tfoot {
     background: black;
     color: white;
@@ -51,8 +63,10 @@ table.schedule tfoot {
 /* Column Group Styles */
 col#firstCol {
     background: rgb(218, 210, 218);
+    width: 16%;
 }
 
 col.dayCols {
     background: rgb(255, 220, 255);
+    width: 12%;
 }
